@@ -38,6 +38,7 @@ public final class Crouton {
 	private View view;
 	private CharSequence text;
 	private Style style;
+	private int mTopMargin = 0;
 
 	/**
 	 * Creates the {@link Crouton}.
@@ -173,6 +174,20 @@ public final class Crouton {
 	 */
 	void setView(View view) {
 		this.view = view;
+	}
+
+	int getYMargin() 
+	{
+		return mTopMargin;
+	}
+	
+	/**
+	 * 
+	 * @param dp margin from top in dp
+	 */
+	public void setTMargin(int margin)
+	{
+		mTopMargin = margin;
 	}
 
 }
