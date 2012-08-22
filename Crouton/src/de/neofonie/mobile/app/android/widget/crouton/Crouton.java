@@ -203,13 +203,9 @@ public final class Crouton {
 	
 	public void setGravity(int gravity)
 	{
-		int a = (gravity | Gravity.TOP);
-		int b = (gravity | Gravity.TOP);
-		int c = (gravity | Gravity.TOP);
-		
 		if (((gravity | Gravity.TOP) != 0 ) ||
-			((gravity | Gravity.TOP) != 0 ) ||
-			((gravity | Gravity.TOP) != 0 ))
+			((gravity | Gravity.CENTER) != 0 ) ||
+			((gravity | Gravity.BOTTOM) != 0 ))
 		{
 			mGravity = gravity;
 		}
