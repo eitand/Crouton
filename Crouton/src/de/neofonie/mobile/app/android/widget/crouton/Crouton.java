@@ -191,8 +191,6 @@ public final class Crouton {
 	 */
 	public void setTMargin(int margin)
 	{
-//		Resources r = activity.getResources();
-//		mTopMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, r.getDisplayMetrics());
 		mTopMargin = margin;
 	}
 
